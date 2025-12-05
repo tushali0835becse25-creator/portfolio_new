@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .formm {
+            border: 4px solid #4b2cc2;
+            background: linear-gradient(135deg, #e0f7fa, #ffe0f0);
+        }
+        .divs {
+            display: inline-block;
+        }
+        .div1 {
+            background-color: #d1c4e9; /* light purple */
+        }
+        .div2 {
+            background-color: #f8bbd0; /* soft pink */
+        }
+        .headings {
+            background: linear-gradient(90deg, #ff8a65, #ba68c8);
+            color: white;
+            padding: 6px;
+            border-radius: 5px;
+        }
+        h1 {
+            background: linear-gradient(90deg, #4b2cc2, #8e24aa);
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 6px;
+        }
+        label:hover {
+            background-color: #80deea; /* teal hover */
+        }
+        input:hover, select:hover, textarea:hover {
+            background-color: #fff59d; /* soft yellow */
+        }
+        input[type="submit"] {
+            background: linear-gradient(90deg, #4b2cc2, #8e24aa);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background: linear-gradient(90deg, #8e24aa, #4b2cc2);
+        }
+        input[type="reset"] {
+            background: linear-gradient(90deg, #ff8a65, #ba68c8);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="reset"]:hover {
+            background: linear-gradient(90deg, #ba68c8, #ff8a65);
+        }
+    </style>
+</head>
+<body>
+    <div class="formm">
+        <h1 style="text-align: center;">REGISTRATION FORM</h1>
+    <form action="/action_page.php" method="post" class="inner_form">
+
+        <div class="divs , div1">
+        <label for="fname">  First Name</label>
+        <input type="text" id="fname" name="fname">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+        </div><br><br>
+
+        <label for="city" class="div2">Select Ur City</label>
+        <select id="city" name="city">
+            <option value="     ">      </option>
+            <option value="Budhlada">Budhlada</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Patiala">Patiala</option>
+            <option value="Ludhiana">Ludhiana</option>
+            <option value="Jalandhar">Jalandhar</option>
+        </select><br><br>
+
+        <h2 class="headings">Select Ur Gender</h2>
+
+        <div class="divs , div1">
+        <label for="Male">Male 🚹</label>
+        <input type="radio" id="Male" name="Gender">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="Female">Female 🚺</label>
+        <input type="radio" id="Female" name="Gender">
+        </div><br><br>
+
+        <h2 class="headings">Select Ur Fav Subject</h2>
+
+        <div class="divs , div1">
+        <label for="Maths">MATHS</label>
+        <input type="checkbox" id="Maths" name="maths">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="english">English</label>
+        <input type="checkbox" id="english" name="english">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="physics">Physics</label>
+        <input type="checkbox" id="physics" name="physics">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="chemistry">Chemistry</label>
+        <input type="checkbox" id="chemistry" name="chemistry">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="hindi" name="hindi">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="phn_no">Phone Number</label>
+        <input type="text" id="phn_no" name="phone">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="adresses" style="text-align: center; display: flex;">Address</label>
+        <textarea id="address" name="address" rows="5" cols="40"></textarea>
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" id="DOB" name="dob">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="colour">SELECT color</label>
+        <input type="color" id="colour" name="colour">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="email">E-MAIL</label>
+        <input type="email" id="email" name="emaIL">
+        </div><br><br>
+
+       <div class="divs , div2">
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time">
+        </div><br><br>
+
+        <div class="divs , div1">
+        <label for="files">FILE</label>
+        <input type="file" id="files" name="file">
+        </div><br><br>
+
+        <div class="divs , div2">
+        <label for="comments" style="display: flex; align-items: center;">Comments</label>
+        <textarea id="address" name="address" rows="5" cols="40"></textarea>
+        </div><br><br>
+
+
+        <input type="submit" value="submit" class="div1"><br><br>
+
+        <input type="reset" value="reset" class="div2">
+
+    </form>
+    </div>
+</body>
+</html>

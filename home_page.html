@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .header {
+            display: flex;
+            gap: 45px;
+            background-color: white;
+        }
+        h5 {
+            font-size: 14px;
+        }
+        sup {
+            color: rgb(244, 77, 141);
+        }
+        .names {
+            display:flex ;
+            vertical-align: top;
+            gap: 26px;
+        }
+        .search {
+            border: 2px rgb(244, 240, 240);
+            width: 487px;
+            height: 35px;
+            border-radius: 12px solid grey;
+            vertical-align: bottom;
+            background-color: rgb(244, 240, 240);
+            margin-left: 5px;
+            margin-top: 13px;
+        }
+        .icons {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            padding-left: 12px;
+        }
+        .icons_new {
+            font: 0.5px;
+            line-height: 2px;
+        }
+        i {
+            text-align: center;
+            margin-bottom: 2px;
+            margin-top: 16px;
+        }
+        .same {
+            background-color: rgb(244, 240, 240);
+        }
+        .section {
+            padding-left: 50px;
+            padding-right: 40px;
+            padding-top: 30px;
+            display: grid;
+            grid-template-columns: 55% 45%;
+            grid-template-rows: 20vh 20vh;
+        }
+        .discount {
+            font-size: 60px;
+            background-color: rgb(141, 56, 3);
+            color: white;
+            display: flex;
+            justify-content: center;  
+            align-items: center; 
+        }
+        .discount2 {
+            font-size: 35px;
+            background-color: rgb(146, 219, 232);
+            color: rgb(141, 56, 3);
+            display: flex;
+            padding-left: 80px;
+            padding-right: 40px;
+            justify-content: center;
+            align-items: center;
+            border-right: 8px ridge rgb(146, 219, 232);
+        }
+        .section2 {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+        }
+        /* .section3 {
+            display: flex;
+            gap: 20px;
+            padding: 50px;
+        } */
+        .section3 {
+            display: grid;
+            grid-template-columns: 20% 20% 20% 20%;
+            gap: 70px;
+            padding: 50px;
+        }
+        img {
+            height: 120px;
+            width: 320px;
+        }
+        h3 {
+            padding-left: 50px;
+            font-size: 28px;
+        }
+        .section4 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        .section5 {
+            display: grid;
+            grid-template-columns: 15% 15% 15% 15% 15%;
+            gap: 80px;
+            padding-left: 50px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            background: radial-gradient(circle ,rgb(225, 222, 222) 30% , #747373 70%);
+            height: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .spl_brdr {
+            border: 5px solid black;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .category {
+           background: radial-gradient(circle ,rgb(225, 222, 222) 30% , #6d6c6c 70%);
+           text-align: center;
+           font-size: 40px; 
+           height: 100px;
+           width: 1400px;
+           padding-top: 50px;
+           margin-left: 50px;
+           margin-right: 50px;
+        }
+        .chosse_things {
+            display: grid;
+            grid-template-columns: 13% 13% 13% 13% 13% 13%;
+            grid-template-rows: 27% 27% 27% 27%;
+            margin-left: 52px;
+            margin-right: 28px;
+            gap: 57px;
+        }
+        .chosse_things_css {
+            background-color: rgb(170, 75, 16);
+            color: white;
+            border: 4px solid rgb(141, 56, 3);
+            text-align: center;
+        }
+        .more_offers {
+            background: linear-gradient(to bottom ,rgb(225, 222, 222) 30% , #595858 70%);
+            display: grid;
+            grid-template-columns: 35% 60%;
+            padding: 30px;
+            gap: 30px;
+        }
+        h4 {
+            font-size: 29px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+        <div>
+            <div class="header">
+                <img src="https://i.pinimg.com/736x/10/8f/fd/108ffd534d2076aa59babdb3b925438d.jpg" alt="Myntra" style="width: 75px; height: 38px; margin-top: 17px; margin-left: 45px;">
+                <div class="names">
+                    <h5>MEN</h5>
+                    <a href="ethinic_wear.html" target="_blank">
+                    <h5>WOMEN</h5>
+                    </a>
+                    <h5>KIDS</h5>
+                    <h5>HOME</h5>
+                    <h5>BEAUTY</h5>
+                    <h5>GENZ</h5>
+                    <h5 style="margin-top: 20px;">STUDIO<sup>New</sup></h5>
+                </div>
+                    <div>
+                        <input type="text" class="search" placeholder="🔍   Search for products,Brands and more">
+                    </div>
+
+                    <div class="icons">
+                        <a href="login_page.html" target="_blank">
+                            <i class="fa-solid fa-circle-user"><h6 class="icons_new">Profile</h6></i>
+                        </a>
+                        <i class="fa-regular fa-heart"><h6 class="icons_new">Wishlist</h6></i>
+                        <i class="fa-solid fa-cart-shopping"><h6 class="icons_new">Cart</h6></i>
+                    </div>
+            </div>
+
+            <div class="same">
+
+                <div class="section">
+                    <div class="discount">
+                        <p><b>FLAT ₹300 OFF</b></p>
+                    </div>
+                    <div class="discount2">
+                        <p><b>On Your 1st Purchase Via <img src="https://yt3.googleusercontent.com/Ub82oVs7TuqHki5LechxBBs2f4Uldl_6R0PAK5HbwJxucp_dPr-w5MGaxU3gnTx9IVs0e8Kg=s900-c-k-c0x00ffffff-no-rj" style="height: 50px; width: 50px;"> Myntra App!</b></p>
+                    </div>
+                </div>
+
+                <div class="section2">
+                    <img src="https://assets.myntassets.com/assets/images/2025/NOVEMBER/20/pQhusmgA_046174173055440193296bfa2dbf1cfb.png" alt="Sale" style="width: 1400px; height: 500px;">
+                </div>
+
+                <div class="section2">
+                    <img src="https://i.pinimg.com/736x/e1/b2/c8/e1b2c832004912c7c5f11c3089604b27.jpg" alt="Trend" style="width: 1400px; height: 600px;">
+                </div>
+
+                <div class="section3">
+                    <img src="https://mayastickers.com/image/cache/catalog/mainimage/ccc/canara_bank_logo_stickers-600x315w.jpg" alt="Canara bank">
+                    <img src="https://etimg.etb2bimg.com/photo/121619354.cms" alt="Fedral Bank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Logo_of_IDFC_First_Bank.svg/2560px-Logo_of_IDFC_First_Bank.svg.png" alt="IDFC first Bank">
+                    <h3>10% Instant Discount*</h3>
+                </div>
+
+                <div class="section2">
+                    <img src="https://www.gyftr.com/blog/wp-content/uploads/2019/04/banners21554285340.jpg" alt="Great Deals" style="height: 400px; width: 1400px;">
+                </div>
+
+                <div class="section4">
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv74OPT9witHrMLpMHtGuwQhHjmOtgG8tw6A&s" alt="Victorial Bliss" style="height: 220px; width: 280px;"><br><br>
+                        <h2>Victoria's Secret</h2>
+                    </div>
+                    <div>
+                        <img src="https://media.very.co.uk/i/very/WKPW1_SQ1_0000004418_DARK_PINK_MDf?$pdp_300x400_x2$&fmt=jpg" alt="USpolo" style="height: 220px; width: 280px;">
+                        <h2><img src="https://1000logos.net/wp-content/uploads/2022/08/Tommy-Hilfiger-logo.jpg" alt="uspolo" style="width: 120px; height: 50px;">   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsCdZHRMgTCygBXLzGlVY0V4TAlK_JFrqkVgyoH_CD_OKj2LvIm7CPx8bQmwPpdtiwGRk&usqp=CAU" alt="Tommy-Hilfiger" style="width: 120px; height: 50px;"></h2>
+                    </div>
+
+                    <div>
+                        <img src="https://m.media-amazon.com/images/I/71waZoLBwVL._AC_UY1000_.jpg" alt="Mirragio" style="height: 220px; width: 280px;">
+                        <h2 style="vertical-align: top;">MIRAGGIO       <img src="https://www.linoperros.com/cdn/shop/files/New_Logo_add5ad3b-2a96-490d-a754-0477782d8db6.jpg?v=1705059968" alt="lino perros" style="width: 120px; height: 50px;"></h2>
+                    </div>
+                    
+                    <div>
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/31918023/2025/4/29/5a7723cb-d213-422f-a037-fe8199039a6f1745929703110-MINI-WESST-Women-Textured-Structured-Handheld-Bag-6971745929-1.jpg" alt="bags" style="height: 220px; width: 280px;">
+                        <br><br>
+                        <h2><img src="https://miniwesst.com/cdn/shop/files/Untitled_design_-_2025-04-06T215503.938.png?v=1743956713&width=900" alt="miniwesst" style="width: 130px; height: 30px;">        <img src="https://cdn.shopify.com/s/files/1/0573/6271/0572/files/hs_5e20c73c-2c7b-4004-a23f-1a2c8f09e04e.png?v=1728293784" alt="haute sauce" style="width: 130px; height: 30px;"></h2>
+                    </div>
+
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQknRQLx0-x3bUzZpUc2t1npoGwBJVXDgfAdA&s" alt="inissfree" style="height: 220px; width: 280px;">
+                        <h2><img src="https://1000logos.net/wp-content/uploads/2023/11/Innisfree-Logo.jpg" alt="inissfree" style="width: 120px; height: 50px;">     <img src="https://assets.tryandreview.com/uploads/images/brands/67fdbbde77c77-a9cc51d49d67ccea163d31ffaa5c24ccfcc426e6.jpg" alt="etude" style="width: 120px; height: 50px;"></h2>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="section5">
+                        <div class="spl_brdr">
+                            <h2><b>MIN 30% OFF</b></h2>
+                            <p>Self Care Bliss</p>
+                        </div>
+                        <div class="spl_brdr">
+                            <h2><b>MIN 50% OFF</b></h2>
+                            <p>Tiny Treasures</p>
+                        </div>
+                        <div class="spl_brdr">
+                            <h2><b>30 - 60% OFF</b></h2>
+                            <p>High Fashion Handbags</p>
+                        </div>
+                        <div class="spl_brdr">
+                            <h2><b>MIN 60% OFF</b></h2>
+                            <p>Fab Handbags</p>
+                        </div>
+                        <div class="spl_brdr">
+                            <h2><b>Upto 30% OFF</b></h2>
+                            <p>K Beauty Picks</p>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="category">
+                    <b>SHOP BY CATEGORY</b>
+                </div>
+
+                <div class="chosse_things">
+                    <a href="ethinic_wear.html" target="_blank">
+                        <div class="chosse_things_css">
+                            <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/AUGUST/9/GhS5U9bn_e2a5080965ad431da2d7d58d17e9e06c.jpg" alt="Ethinic Wear" style="height: 190px; width: 150px;">
+                            <p>Ethinic Wear <br> <b>50 - 80% OFF</b> <br>Shop Now</p>
+                        </div>
+                    </a>
+
+                    <a href="casual_wear.html" target="_blank">
+                        <div class="chosse_things_css">
+                            <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/29540498/2024/5/14/e963d267-00bd-46a2-8b8a-dfab95b71eb51715692120095HERENOWMenSlimFitOpaqueCasualShirt1.jpg" alt="Casual Wear" style="height: 190px; width: 150px;">
+                            <p>Casual Wear  <br> <b>40 - 80% OFF</b> <br>Shop Now</p>
+                        </div>
+                    </a>
+
+                    <div class="chosse_things_css">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/JULY/26/3lHrecGC_9c49c22db60e47c78125566e86bd5ec1.jpg" alt="Men's Activewear" style="height: 190px; width: 150px;">
+                        <p>Men's Activewear  <br> <b>30 - 70% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <a href="womens_activwwear.html" target="_blank">
+                        <div class="chosse_things_css">
+                            <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/34874265/2025/6/13/f9aa4182-68da-479d-82dd-2dfddb37b34b1749815056414-HRX-by-Hrithik-Roshan-Women-Tshirts-531749815055870-1.jpg" alt="Women's Activewear" style="height: 190px; width: 150px;">
+                            <p>Women's Activewear  <br> <b>30 - 70% OFF</b> <br>Shop Now</p>
+                        </div>
+                    </a>
+
+                    <div class="chosse_things_css">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/2025/FEBRUARY/20/1icPFn5V_1c71a185856944aa9e4819294ab3ba73.jpg" alt="Western Wear" style="height: 190px; width: 150px;">
+                        <p>Western Wear  <br> <b>40 - 80% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/34873142/2025/6/13/eb706095-2684-439b-86c7-fa800b0eb2591749794321342-HRX-by-Hrithik-Roshan-Women-Tshirts-2331749794320694-1.jpg" alt="Sports Wear" style="height: 190px; width: 150px;">
+                        <p>Sports Wear  <br> <b>30 - 80% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/34299304/2025/6/7/ce9dd78b-d320-4286-8572-54a1a737bac61749290885476-AV2-Women-Printed-Night-suit-1591749290885005-1.jpg" alt="Loungewear" style="height: 190px; width: 150px;">
+                        <p>Loungewear  <br> <b>30 - 60% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://v2awatch.com/cdn/shop/files/V2A-OT-1836-Black.jpg?v=1754308957&width=500" alt="Watches" style="height: 190px; width: 150px;">
+                        <p>Watches  <br> <b>Up to 80% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/26141360/2024/6/28/05e1329f-0cd6-4a73-9070-f99a83d0734b1719577372627-Bombay-Shaving-Company-Men-Set-of-9-Grooming-Essential-Kit-9-1.jpg" alt="Grooming" style="height: 190px; width: 150px;">
+                        <p>Grooming  <br> <b>Up to 60% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/24576754/2023/11/28/4f18913d-571e-41b4-b2d9-2808405f606e1701164672931-NOY-Set-Of-15-Bliss-Makeup-Gift-Set---NO285-1181701164672885-1.jpg" alt="Beauty & Makeup" style="height: 190px; width: 150px;">
+                        <p>Beauty & Makeup  <br> <b>Up to 60% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://m.media-amazon.com/images/I/81nBa+4b7eL._AC_UY1000_.jpg" alt="Men's Footwear" style="height: 190px; width: 150px;">
+                        <p>Men's Footwear  <br> <b>50 - 70% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://www.jiomart.com/images/product/original/rvjj95xwk4/shoe-lab-women-s-comfortable-peach-sandal-footwear-for-women-sandals-for-women-wedges-for-women-heels-for-women-non-returnable-product-images-rvjj95xwk4-0-202311071211.jpg?im=Resize=(500,630)" alt="Women's Footwear" style="height: 190px; width: 150px;">
+                        <p>Women's Footwear  <br> <b>40 - 80% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://www.irealife.com/cdn/shop/files/ProductTopsCarissaBlueSlitPeplumTop_5_e352c8f8-a297-4381-a72b-ea84d87e7cd9.jpg?v=1748231019&width=1100" alt="Office Wear" style="height: 190px; width: 150px;">
+                        <p>Office Wear  <br> <b>40 - 70% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://asukacouture.com/cdn/shop/files/ethnic_wear_for_men_in_hydereabad.jpg?v=1727082720&width=1080" alt="Men's Ehinic Wear" style="height: 190px; width: 150px;">
+                        <p>Men's Ehinic Wear  <br> <b>Up to 60% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://www.homesake.in/cdn/shop/files/IH0E062.jpg?v=1755861768" alt="Home Decor" style="height: 190px; width: 150px;">
+                        <p>Home Decor  <br> <b>40 - 70% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://m.media-amazon.com/images/I/71vz71m5usL._AC_UY1000_.jpg" alt="Handbags" style="height: 190px; width: 150px;">
+                        <p>Handbags  <br> <b>40 - 80% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://kinclimg3.bluestone.com/f_jpg,c_scale,w_828,q_80,b_rgb:f0f0f0/giproduct/BIDG0319R180_YAA18DIG6XXXXXXXX_ABCD00-PICS-00001-1024-66194.png" alt="Jewellery" style="height: 190px; width: 150px;">
+                        <p>Jewellery  <br> <b>Up to 80% OFF</b> <br>Shop Now</p>
+                    </div>
+
+                    <div class="chosse_things_css">
+                        <img src="https://www.shutterstock.com/image-photo/vertical-portrait-smiling-blonde-woman-260nw-2459555009.jpg" alt="Eyewear" style="height: 190px; width: 150px;">
+                        <p>Eyewear  <br> <b>Up to 80% OFF</b> <br>Shop Now</p>
+                    </div>
+                </div>
+
+                <div class="more_offers">
+                    <img src="https://cdn.dribbble.com/userupload/44076137/file/original-10992c74ae736c83e27904ae8b3656ca.png?crop=0x0-1100x825&format=webp&resize=400x300&vertical=center" alt="phone_image" style="height: 340px; width: 330px; border: 3px solid rgb(234, 65, 93);">
+                        <div>
+                            <p style="font-size: 45px;; color: palevioletred;"><b>MORE KNOCKOUT OFFERS WAITING!!</b></p>
+                            <h4>Only on the <img src="https://yt3.googleusercontent.com/Ub82oVs7TuqHki5LechxBBs2f4Uldl_6R0PAK5HbwJxucp_dPr-w5MGaxU3gnTx9IVs0e8Kg=s900-c-k-c0x00ffffff-no-rj" style="height: 50px; width: 50px;"> Myntra App</h4>
+                            <h4>Download Now : <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv-ubg7B1313LznWxThHKPOoiIJdHswDfhEQ&s" style="height: 60px; width: 130px;">    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png" style="height: 60px; width: 130px;"></h4>
+                        </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+        .card {
+            background: linear-gradient(to bottom, #ffffff, #fdf6f0);
+        }
+
+        .about {
+            text-align: center;
+            background-color: white;
+            color: #8e8e8e;
+            font-size: 30px;
+            border: 2px solid #8e8e8e;
+            border-radius: 10px;
+        }
+
+        .full {
+            background: linear-gradient(to bottom, #a8edea, #fed6e3, #ff9a9e, #f6d365, #fda085, #ffecd2);
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background:linear-gradient(135deg, #fed6e3, #ff9a9e, #f6d365);
+        }
+
+        .nav-item {
+            font-size: 22px;
+        }
+
+        .profile-img {
+            width: 5%;
+            height: 5%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        .card-title {
+            color: #ff6a95 !important;
+        }
+
+        .card-subtitle {
+            color: #8e8e8e !important;
+        }
+
+        .card-text,
+        ul li p {
+            color: #555 !important;
+        }
+
+        .footer {
+            background-color: white;
+            color: #8e8e8e;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 20px;
+            border: 2px solid #8e8e8e;
+            border-radius: 10px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="full">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+            <img src="https://img.freepik.com/premium-vector/software-developer-vector-illustration-communication-technology-cyber-security_1249867-5464.jpg?semt=ais_hybrid&w=740&q=80"
+                alt="girl" class="profile-img">
+
+            <a class="navbar-brand fw-bold" href="#">PORTFOLIO</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fw-semibold">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new3_projects.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new2_projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="about">
+            <h3>ABOUT</h3>
+        </div>
+
+        <div class="container my-4">
+            <div class="row g-4">
+
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Objective</h5>
+                        <p class="card-text">I am a Computer Science student at Chitkara University with a growing
+                            passion for web designing and creating responsive, user-friendly websites. I aim to
+                            improve
+                            my skills and contribute to web development projects.
+                            Eduction</p>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Education</h5>
+                        <ul>
+                            <li>
+                                <h6 class="card-subtitle mb-2">Bachelor of Technology (B.Tech)
+                                    in
+                                    Computer Science Engineering (CSE) (First Year – Pursuing)</h6>
+                                <p class="card-text">Chitkara University, Punjab</p>
+                            </li>
+                            <br>
+                            <li>
+                                <h6 class="card-subtitle mb-2">Senior Secondary Education (Class
+                                    XII)</h6>
+                                <p class="card-text">Manu Vatika School, Budhlada</p>
+                                <p class="card-text">Year: 2025</p>
+                                <p class="card-text">Percentage: 75.4%</p>
+                            </li>
+                            <br>
+                            <li>
+                                <h6 class="card-subtitle mb-2">Senior Secondary Education (Class
+                                    X)
+                                </h6>
+                                <p class="card-text">Manu Vatika School, Budhlada</p>
+                                <p class="card-text">Year: 2023</p>
+                                <p class="card-text">Percentage: 93.4%</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="card" style="width: 100%;">
+                    <div class="card-body">
+                        <h5 class="card-title">Skills</h5>
+                        <ul>
+                            <li>
+                                <p class="card-text">HTML, CSS, Bootstrap</p>
+                            </li>
+                            <li>
+                                <p class="card-text">Responsive Web Design</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <h4>© 2025 Tushali Singla. All Rights Reserved.</h4>
+            <h4>
+                Connect with me:
+                <a href="#" class="footer-link">LinkedIn</a> |
+                <a href="#" class="footer-link">Email</a>
+            </h4>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

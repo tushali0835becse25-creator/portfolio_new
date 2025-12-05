@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Navbar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .navbar {
+            background: linear-gradient(135deg, #bbd8f5, #f7c7d9);
+        }
+
+        .nav-item {
+            font-size: 22px;
+        }
+
+        .profile-img {
+            width: 5%;
+            height: 5%;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+
+        .main {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50vh;
+            gap: 270px;
+            padding: 50px;
+            background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+        }
+
+        h3 {
+            font-size: 68px;
+        }
+
+        .image {
+            height: 100%;
+            width: 46%;
+            border-radius: 15px;
+            border: 2px solid lightgrey;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #d7eaff, #ffd6e7);
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3">
+        <img src="https://img.freepik.com/premium-vector/software-developer-vector-illustration-communication-technology-cyber-security_1249867-5464.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="girl" class="profile-img">
+
+        <a class="navbar-brand fw-bold" href="#">PORTFOLIO</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto fw-semibold">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="new3_projects.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="new2_projects.html">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br><br>
+
+    <div class="main">
+        <div>
+            <h3>Hello, I'm Tushali Singla</h3><br>
+            <h4>I am a Computer Science student at Chitkara University with a growing passion for web designing and
+                creating responsive, user-friendly websites. I aim to improve my skills and contribute to web
+                development projects.</h4>
+        </div>
+        <div>
+            <img src="https://img.freepik.com/premium-photo/anime-girl-programmer-working-code-project_1282444-263471.jpg"
+                alt="girl2" class="image">
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="footer">
+        <h4>© 2025 Tushali Singla. All Rights Reserved.</h4>
+        <h4>
+            Connect with me:
+            <a href="#" class="footer-link">LinkedIn</a> |
+            <a href="#" class="footer-link">Email</a>
+        </h4>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
